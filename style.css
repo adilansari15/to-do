@@ -138,3 +138,32 @@ ul li dlt{
   bottom: 2px;
   translate: 1/2;
 }
+
+/* responsive */
+@media (max-width: 600px) {
+  .todo-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .todo-input {
+    width: 65%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .add-btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .delete-btn {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
